@@ -6,7 +6,7 @@ public class FibonacciSeries {
         int b = 1;
         int sum_fib;
         System.out.println("0\n1\n1");
-        for(int i = 0; i < lastFibonacci-1; i++){
+        for(int i = 0; i < lastFibonacci-3; i++){
             sum_fib = a + b;
             a = b;
             b = sum_fib;
